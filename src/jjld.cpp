@@ -43,7 +43,7 @@ int main( int argc, char** argv )
         return 1;
     }
 
-    elfio reader; 
+    elfio reader;
 
     if ( !reader.load( argv[1] ) ) {
         printf( "File %s is not found or it is not an ELF file\n", argv[1] );

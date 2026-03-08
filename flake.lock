@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "elfio-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1685716657,
+        "narHash": "sha256-tDRBscs2L/3gYgLQvb1+8nNxqkr8v1xBkeDXuOqShX4=",
+        "owner": "serge1",
+        "repo": "ELFIO",
+        "rev": "8ae6cec5d60495822ecd57d736f66149da9b1830",
+        "type": "github"
+      },
+      "original": {
+        "owner": "serge1",
+        "ref": "Release_3.12",
+        "repo": "ELFIO",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "inputs": {
         "systems": "systems"
@@ -36,6 +53,7 @@
     },
     "root": {
       "inputs": {
+        "elfio-src": "elfio-src",
         "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs"
       }
