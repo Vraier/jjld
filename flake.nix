@@ -41,6 +41,7 @@
             gnumake
             cmake
             gdb
+            glibc.static
           ];
           
           buildInputs = [
