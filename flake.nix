@@ -22,6 +22,7 @@
             gnumake
             cmake
             gdb
+            elfio # library for parsing and writing elf files
           ];
         };
       }
