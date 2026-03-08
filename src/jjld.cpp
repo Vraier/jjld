@@ -50,7 +50,7 @@ int main( int argc, char** argv )
         return 1;
     }
 
-    dump::dynamic_tags( std::cout, reader );
+    dump::symbol_tables( std::cout, reader );
 
     return 0;
 }

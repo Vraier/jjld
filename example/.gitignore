@@ -1,2 +1,3 @@
-example
-example.o
+my_main
+my_main.o 
+my_print.o
