@@ -14,6 +14,6 @@ void my_exit(int status) {
 // _start is the true entry point of an ELF executable
 void _start() {
     my_print("Hello, bare-metal world!\n");
-    
+
     my_exit(0);
 }
